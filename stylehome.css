@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0A194F; /* Shiny Dark Blue Background */
+    color: #fff;
+}
+
+header {
+    background-color: #002651; /* Slightly Darker Blue for Header */
+    text-align: center;
+    padding: 80px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #fff;
+}
+
+header p {
+    font-size: 18px;
+    color: #fff;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #0A194F; /* Slightly Darker Blue for Content Area */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    width: 800px;
+    background-color: #002651; /* Dark Blue for Feature Sections */
+    box-shadow: 0 0 20px #0000001a;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.feature h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.feature p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 15px 0;
+    color: #fff;
+}
+
+.feature a {
+    display: inline-block;
+    background-color: #ff6600; /* Bright Orange Button */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.feature a:hover {
+    background-color: #ff8c40; /* Lighter Orange on Hover */
+}
+
+footer {
+    background-color: #002651; /* Slightly Darker Blue for Footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

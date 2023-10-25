@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #101b3d;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #00a1e4;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+header p {
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+}
+
+.about-section,
+.contact-section {
+    background-color: #082f5c;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+form {
+    padding: 20px;
+    border: 1px solid #00a1e4;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #101b3d;
+    color: #fff;
+}
+
+form .form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #00a1e4;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #00a1e4;
+    border-radius: 5px;
+    background-color: #101b3d;
+    color: #fff;
+}
+
+button[type="submit"] {
+    background-color: #00a1e4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: #00a1e4;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 14px;
+    color: #fff;
+}
+/* Social Media Icons Styling */
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(199, 199, 199);
+}
+.social-icons a {
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 24px;
+  color: #ff2f00;
+  transition: color 0.3s;
+}
